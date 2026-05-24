@@ -149,6 +149,14 @@ Author: Phạm Quốc Hùng <br />
 
 <a href="mailto:pham.quochung0999@gmail.com">![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)</a> <a href="https://public.tableau.com/app/profile/hung.pham279">![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)</a> <a href="https://github.com/phamquochung279">![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)</a> <a href="https://www.linkedin.com/in/pham-quochung/">![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)</a>
 
+## 5. Ý tưởng cải thiện project (ngắn gọn)
+
+1. **Deploy project lên cloud (ví dụ Oracle Cloud, vì họ là 1 trong các provider hiếm hoi có Always Free Tier)**: Pipeline chạy tự động 24/7 thay vì phụ thuộc máy local, có thể chia sẻ data cho người khác dùng hoặc demo.
+
+2. **Deploy lên Kubernetes cluster (ví dụ Oracle OKE)**: Quản lý containers tốt hơn, scale linh hoạt, rollout/rollback tiện, tăng độ ổn định khi số lượng job tăng.
+
+3. **Dùng Terraform để quản lý cloud infrastructure**: Version control cho infra, tái tạo nhanh, giảm thao tác thủ công, dễ audit và phối hợp với team.
+
 ---
 
 ## English Version
@@ -302,3 +310,10 @@ Author: Phạm Quốc Hùng <br />
 
 <a href="mailto:pham.quochung0999@gmail.com">![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)</a> <a href="https://public.tableau.com/app/profile/hung.pham279">![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)</a> <a href="https://github.com/phamquochung279">![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)</a> <a href="https://www.linkedin.com/in/pham-quochung/">![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)</a>
 
+## 5. Ideas for Improvement
+
+1. **Deploy the project to cloud (e.g., Oracle Cloud, because they are one of the few providers to offer an Always Free Tier)**: Turn the project into an automatic pipeline running 24/7 instead of depending on a local machine, allow the data to be shared for others or to be used for demos.
+
+2. **Deploy to a Kubernetes cluster (e.g., Oracle OKE)**: Better container management, flexible scaling, easier rollout/rollback, and higher stability as the number of jobs grows.
+
+3. **Use Terraform to manage cloud infrastructure**: Version control for infrastructure, faster reproducibility, fewer manual operations, and easier auditing/team collaboration.
